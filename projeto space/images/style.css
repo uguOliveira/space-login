@@ -1,0 +1,114 @@
+:root{
+    --text-collor:#18A541;
+    --background-collor:#680a63;
+
+
+
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+body{
+margin: 0;
+font-family: 'Roboto', sans-serif;
+}
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #680a63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-login > h1{
+    color: #18A541;
+    font-size: 3vw;
+
+}
+
+.img-login{
+    width: 40vw;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-login{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 70px;
+    background: #3a0837; 
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+.card-login >h1 {
+   color: #17a740; 
+   font-weight: 800;
+   margin: 0;
+}
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; 
+    margin: 10px 0px;  
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #915d8d;
+    color: rgb(202, 205, 207);
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: rgb(193, 201, 209);
+    margin-bottom: 10px;
+
+
+}
+
+.textfield > input::placeholder{
+    color: rgb(191, 200, 207);
+    
+}
+
+.btn-login{
+    width: 100%;
+    padding: 12px 10px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #3a0837;
+    background: #23b14b;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #5ce784;
+
+}
